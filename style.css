@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: whitesmoke;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-family: 'San Francisco', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+	margin-top: 2.5rem;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#cover {
+	width: 66%;
+	margin-bottom: 4vw;
+	margin-top: 4vw;
+	box-shadow: 10px 10px 30px rgb(144, 144, 144);
+}
+
+.text-author {
+	font-size: 85%;
+	text-align: right;
+	font-style: italic;
+	padding-bottom: 5vw;
+	margin-bottom: 5vw;
+}
+
+.title p {
+	text-align: center;
+	font-weight: 555;
+	padding: 2vw;
+	margin: 2vw;
+	text-indent: 0;
+}
+
+p {
+	text-align: justify;
+	text-indent: 5vw;
+	margin: 0.5vw;
+}
+
+p:last-of-type {
+	margin-bottom: 5rem;
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+mark {
+	background-color: #d4e9c9;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 1100px) {
+	body {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	body {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 800px) {
+	body {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 125%;
+	}
+}
+@media screen and (max-width: 414px) {
+	body {
+		font-size: 125%;
+	}
+}
+@media screen and (max-width: 375px) {
+	body {
+		font-size: 115%;
+	}
+}
